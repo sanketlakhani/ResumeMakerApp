@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DashBoardActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:gravity="center"
+                android:paddingTop="@dimen/_5sdp"
+                android:text="|||  Your Information  |||"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/txtfirstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                tools:ignore="InvalidId"
+                tools:text="Firstname" />
+
+            <TextView
+
+                android:id="@+id/txtlastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds"
+                tools:text="Lastname" />
+
+            <TextView
+
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="Email" />
+
+            <TextView
+
+                android:id="@+id/txtaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="Address" />
+
+            <TextView
+
+                android:id="@+id/txtnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="Number" />
+
+            <TextView
+
+                android:id="@+id/txtschool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="school" />
+
+            <TextView
+
+                android:id="@+id/txtcollage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="collage" />
+
+            <TextView
+
+                android:id="@+id/txtself"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="self" />
+
+            <TextView
+
+                android:id="@+id/txtgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/black"
+                tools:text="gender" />
+
+            <TextView
+
+                android:id="@+id/txtcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                tools:text="citynames" />
+
+            <TextView
+
+                android:id="@+id/txthobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                tools:text="hobby" />
+
+            <TextView
+
+                android:id="@+id/txtskill"
+                android:layout_marginTop="@dimen/_20sdp"
+                tools:text="skill"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1A000000"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:id="@+id/txtrate"
+                android:layout_marginTop="@dimen/_20sdp"
+                tools:text="Rate us: "
+                android:textSize="@dimen/_30ssp"
+                android:textColor="@color/teal_200"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"/>
+
+            <RatingBar
+
+                android:layout_marginTop="@dimen/_20sdp"
+                android:id="@+id/rating"
+                android:rating="3.5"
+                android:stepSize="0.5"
+                android:numStars="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+
+                android:id="@+id/ratingbutton"
+                android:text="Rating"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:backgroundTint="@color/teal_200"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
